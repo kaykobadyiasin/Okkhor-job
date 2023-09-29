@@ -12,8 +12,8 @@ const SectionTitle = ({title}) => {
 
                 </div>
             </div>
-            <div className="absolute top-3 left-24 text-white font-semibold z-50">
-                <h2 >{title}</h2>
+            <div className="absolute top-3 lg:left-24 md:left-72 left-24 text-white font-semibold z-50">
+                <h2>{title}</h2>
             </div>
         </div>
     );
