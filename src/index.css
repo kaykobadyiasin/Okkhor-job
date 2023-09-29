@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.product {
+    transition: .3s;
+}
+
+.product:hover .product_review,
+.product:hover .product_oldPrice,
+.product:hover .product_btn {
+    color: white;
+    border-color: white;
+}

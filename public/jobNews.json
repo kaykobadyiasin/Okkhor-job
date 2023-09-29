@@ -1,0 +1,45 @@
+{
+    "newsCategories": [
+      {
+        "newsTitle": "Business",
+        "newsDescription": "Stay updated on the latest business news and financial trends."
+      },
+      {
+        "newsTitle": "Technology",
+        "newsDescription": "Discover the latest developments in the world of technology and innovation."
+      },
+      {
+        "newsTitle": "Health",
+        "newsDescription": "Get health and wellness tips, medical breakthroughs, and healthcare updates."
+      },
+      {
+        "newsTitle": "Science",
+        "newsDescription": "Explore fascinating scientific discoveries and research from various fields."
+      },
+      {
+        "newsTitle": "Entertainment",
+        "newsDescription": "Stay entertained with celebrity news, movie reviews, and pop culture updates."
+      },
+      {
+        "newsTitle": "Sports",
+        "newsDescription": "Follow your favorite sports teams, scores, and athletes' stories."
+      },
+      {
+        "newsTitle": "Politics",
+        "newsDescription": "Stay informed about political developments, elections, and government policies."
+      },
+      {
+        "newsTitle": "Environment",
+        "newsDescription": "Learn about environmental issues, conservation efforts, and sustainability news."
+      },
+      {
+        "newsTitle": "Lifestyle",
+        "newsDescription": "Get lifestyle tips, fashion trends, and advice on living your best life."
+      },
+      {
+        "newsTitle": "Travel",
+        "newsDescription": "Explore travel destinations, vacation ideas, and travel-related news."
+      }
+    ]
+  }
+  
