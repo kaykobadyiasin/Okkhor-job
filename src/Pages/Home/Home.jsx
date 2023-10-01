@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import jobNewsImage from '../../assets/Images/jobNews.png';
 import book1 from '../../assets/Books/book1.png';
-import Rating from 'react-rating';
 import { Icon } from '@iconify/react';
 import SectionTitle from '../../components/SectionTitle';
 import { Link } from 'react-router-dom';
@@ -53,7 +52,9 @@ const Home = () => {
                                 <div className="w-full text-para_texts">
                                     <h3 className="text-xl font-semibold">{category?.newsTitle}</h3>
                                     <p className='my-3 h-48 overflow-y-scroll pr-3'>{category?.newsDescription}</p>
-                                    <button className='border border-black hover:bg-secondary hover:border-secondary transition-all duration-300 hover:text-white text-black mt-5 rounded-md py-2 px-5'>বিস্তারিত</button>
+                                    <Link to={`/singleNewsDetails/${category?._id}`}>
+                                        <button className='border border-black hover:bg-secondary hover:border-secondary transition-all duration-300 hover:text-white text-black mt-5 rounded-md py-2 px-5'>বিস্তারিত</button>
+                                    </Link>
                                 </div>
                                 <div className='lg:w-6/12 w-full'>
                                     <img src={jobNewsImage} className='w-full' alt="Job News" />
@@ -81,17 +82,6 @@ const Home = () => {
                                             <img src={product?.Image} className="w-full h-auto object-contain max-w-full max-h-60" alt="Book 1" />
                                         </div>
                                         <h3 className="text-xl font-medium">{product?.Title}</h3>
-                                        <div className='flex items-center gap-3'>
-                                            <Rating
-                                                placeholderRating={product?.review}
-                                                readonly
-                                                className='text-2xl text-[#FFD111]'
-                                                emptySymbol={<Icon icon="mdi:star-outline" />}
-                                                placeholderSymbol={<Icon icon="ic:sharp-star" />}
-                                                fullSymbol={<Icon icon="ic:baseline-star-half" />}
-                                            />
-                                            <span className='text-para_texts product_review'>( {product?.review} রিভিউ )</span>
-                                        </div>
                                         <div className='flex justify-between items-center gap-5'>
                                             <div className='flex gap-3 items-center'>
                                                 <del className='text-para_texts product_oldPrice'>{product?.oldPrice}৳</del>

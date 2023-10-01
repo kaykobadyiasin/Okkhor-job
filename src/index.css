@@ -20,7 +20,7 @@
 .swiper-pagination-custom,
 .swiper-horizontal>.swiper-pagination-bullets,
 .swiper-pagination-bullets.swiper-pagination-horizontal {
-  bottom: 3px !important;
+  bottom: 15px !important;
 }
 
 

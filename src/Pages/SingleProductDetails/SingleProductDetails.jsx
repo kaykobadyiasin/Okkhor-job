@@ -3,7 +3,6 @@ import { Link, useParams } from "react-router-dom";
 import image from '../../assets/Books/book1.png';
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
-import Rating from "react-rating";
 import { Icon } from "@iconify/react";
 
 
