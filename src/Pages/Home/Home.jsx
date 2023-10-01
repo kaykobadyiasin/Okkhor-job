@@ -53,7 +53,7 @@ const Home = () => {
                                 <div className="w-full text-para_texts">
                                     <h3 className="text-xl font-semibold">{category?.newsTitle}</h3>
                                     <p className='my-3 h-48 overflow-y-scroll pr-3'>{category?.newsDescription}</p>
-                                    <button className='border-2 border-black hover:bg-secondary hover:border-secondary transition-all duration-300 hover:text-white text-black mt-5 rounded-md py-2 px-5'>বিস্তারিত</button>
+                                    <button className='border border-black hover:bg-secondary hover:border-secondary transition-all duration-300 hover:text-white text-black mt-5 rounded-md py-2 px-5'>বিস্তারিত</button>
                                 </div>
                                 <div className='lg:w-6/12 w-full'>
                                     <img src={jobNewsImage} className='w-full' alt="Job News" />

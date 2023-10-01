@@ -26,11 +26,12 @@
 
 /* single product details img gallery slider */
 .image-gallery-slide-wrapper {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   border-radius: 5px;
   margin-bottom: 10px;
   transition: .3s;
 }
+
 
 .image-gallery-image {
   width: 100%;

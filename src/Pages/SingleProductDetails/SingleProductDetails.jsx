@@ -66,20 +66,9 @@ const SingleProductDetails = () => {
                                             <p className="text-2xl font-semibold"><ins className="no-underline">{findProduct.currentPrice}৳</ins></p>
                                             <h4 className="bg-[#DE2121] px-3 py-1 text-sm text-white font-semibold text-center">50% Off</h4>
                                         </div>
-                                        <div className='flex items-center gap-3'>
-                                            <Rating
-                                                placeholderRating={findProduct.review}
-                                                readonly
-                                                className='text-2xl text-[#FFD111]'
-                                                emptySymbol={<Icon icon="mdi:star-outline" />}
-                                                placeholderSymbol={<Icon icon="ic:sharp-star" />}
-                                                fullSymbol={<Icon icon="ic:baseline-star-half" />}
-                                            />
-                                            <span className="text-xs font-medium">{`( ${findProduct.review} Rating )`}</span>
-                                        </div>
                                         <hr />
                                         <div className="space-y-4">
-                                            <p>{findProduct.productDescription}</p>
+                                            <p className="py-5">{findProduct.productDescription}</p>
                                             <div className="flex gap-5">
                                                 <button className="lg:w-full border rounded-none border-black bg-white lg:px-8 px-2 md:px-8 py-3 flex items-center gap-3 text-xl"><Icon className="text-2xl  font-bold" icon="streamline:interface-favorite-heart-reward-social-rating-media-heart-it-like-favorite-love" /> Wish List</button>
                                                 <button className="border-black border lg:px-8 px-4 lg:py-0 md:py-0 py-3 lg:w-full md:w-auto w-full text-xl font-semibold">Add to Cart</button>
